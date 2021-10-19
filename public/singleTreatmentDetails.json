@@ -1,0 +1,39 @@
+[
+    {
+      "key": 1,
+      "image": "./Services/service-1.jpg",
+      "treatment_name": "Cosmetic Dentistry",
+      "description": "Cosmetic dentistry mainly concerns improving the appearance of your …"
+    },
+    {
+      "key": 2,
+      "image": "./Services/service-2.jpg",
+      "treatment_name": "Pediatric Dentistry",
+      "description": "Pediatric dentistry is tailored to ensure infants, children, and …"
+    },
+    {
+      "key": 3,
+      "image": "./Services/service-3.jpg",
+      "treatment_name": "Dental Implants",
+      "description": "Dental implants replace the missing tooth by implanting artificial …"
+    },
+    {
+      "key": 4,
+      "image": "./Services/service-4.jpg",
+      "treatment_name": "Periodontal Therapy",
+      "description": "Periodontal therapy is technically all about restoring the diseased …"
+    },
+    {
+      "key": 5,
+      "image": "./Services/service-5.jpg",
+      "treatment_name": "Teeth Whitening",
+      "description": "Our dentists will clean up your teeth, conduct a thorough check …"
+    },
+    {
+      "key": 6,
+      "image": "./Services/service-6.jpg",
+      "treatment_name": "Preventive Dentistry",
+      "description": "This is an essential service to help patients avoid cavities, gum …"
+    }
+  ]
+  
