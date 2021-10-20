@@ -63,7 +63,7 @@ const Home = () => {
       {/* servises section */}
       <section className="m-5">
         <div className="text-center mt-5 mb-4">
-          <h1>Our Treatment Services</h1>
+          <h1 id="servises">Our Treatment Services</h1>
         </div>
         <Row xs={1} sm={2} md={3} className="g-4">
           {services.map((data) => (

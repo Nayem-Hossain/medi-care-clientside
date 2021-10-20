@@ -1,4 +1,3 @@
-import React from "react";
 import { useEffect, useState } from "react";
 import {
   getAuth,
@@ -13,14 +12,14 @@ import {
 } from "firebase/auth";
 
 import InitializeFirebase from "../Components/FirebaseAuthentication/InitializeFirebase";
-import { useHistory, useLocation } from "react-router";
+import { useHistory } from "react-router";
 
 InitializeFirebase();
 
 const UseFirebase = () => {
-    /* const location = useLocation();
+  /* const location = useLocation();
     const redirect_url = location.state?.from || "/home"; */
-    const history = useHistory();
+  const history = useHistory();
   //for gmail login
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -127,7 +126,7 @@ const UseFirebase = () => {
       setLoading(false);
     });
     return () => unsubscribe;
-  }, []);
+  }, [auth]);
 
   return {
     user,

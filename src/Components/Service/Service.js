@@ -13,7 +13,7 @@ const Service = (props) => {
           <Card.Title>{treatment_name}</Card.Title>
           <Card.Text>{description}</Card.Text>
           <Card.Footer className="bg-white">
-            <Link to={`/treatment-details/${key}`}>
+            <Link to={`/treatment_details/${treatment_name}/${key}`}>
               <Button className="text-white fw-bold bg-danger px-5 py-2">View Details</Button>
             </Link>
           </Card.Footer>

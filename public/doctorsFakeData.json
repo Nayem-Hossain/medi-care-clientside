@@ -1,11 +1,11 @@
 [
   {
     "key": 1,
-    "doctor_name": "DR. Masudur Rahman Iqbal",
+    "doctor_name": "DR. Angellina",
     "designation": "BDS,BCS,Health,MS(Prosthoddontics)",
     "visiting_hour": "4-6PM",
     "address": "741,Dhanmandi Residential Area",
-    "mobile": "01758898742,01817541005",
+    "mobile": "01758898742",
     "doctor_image": "https://i.ibb.co/ZVWcFmD/doctor-1.jpg"
   },
   {
@@ -37,7 +37,7 @@
   },
   {
     "key": 5,
-    "doctor_name": "Associate Prof. Dr. Aslam Al mehdi",
+    "doctor_name": "Associate Prof. Dr. Maria",
     "designation": "M.S. (Oral & Maxillofacial Surgery/Medicine) Korea B.D.S   Bangladesh",
     "visiting_hour": "6-9PM",
     "address": "Banani, Dhaka-1213, Bangladesh",
@@ -55,7 +55,7 @@
   },
   {
     "key": 7,
-    "doctor_name": "Assistant Prof. Dr.Bidya Shina Mim",
+    "doctor_name": "Assistant Prof. Dr. Abdul Mannan",
     "designation": "BDS (Dhaka), MPH (BSMMU), MPhil (BSMMU)",
     "visiting_hour": "8-10PM",
     "address": "21/1 Zigatola (Near Zigatola Bus Stand), Dhanmondi, Dhaka",
@@ -64,7 +64,7 @@
   },
   {
     "key": 8,
-    "doctor_name": "Dr. Shamim Reza",
+    "doctor_name": "Dr. Sharmin Aktar",
     "designation": "Ex consultant, Islami bank specialised general hospital, Palton, Dhaka",
     "visiting_hour": "5-10PM",
     "address": "Happy Archede Shopping Mall(2rd Floor)",
@@ -73,7 +73,7 @@
   },
   {
     "key": 9,
-    "doctor_name": "Dr. M. Sheheda Rashid",
+    "doctor_name": "Dr. M. Rashedul Islam",
     "designation": "BDS (Dhaka), BCS (Health), PGT (Perio),M.S. (Oral & Maxillofacial Surgery/Medicine",
     "visiting_hour": "3-6PM",
     "address": "Satmosjid Road, Dhanmondi, Dhaka-1207, Bangladesh",
@@ -82,7 +82,7 @@
   },
   {
     "key": 10,
-    "doctor_name": "Dr. Roksana Begum",
+    "doctor_name": "Dr. Masudur Rahman Iqbal",
     "designation": "BDS, MS(0MS)",
     "visiting_hour": "5-12PM",
     "address": "Banglamotor, Ramna, Dhaka",
@@ -96,20 +96,21 @@
     "visiting_hour": "5-12PM",
     "address": "Banglamotor, Ramna, Dhaka",
     "mobile": "01764198438",
-    "doctor_image": "https://i.ibb.co/wdLp6WQ/doctor-10.jpg"
+    "doctor_image": "https://i.ibb.co/KqfZDLG/doctor-11.jpg"
   },
+  
   {
     "key": 12,
-    "doctor_name": "Dr. Roksana Begum",
+    "doctor_name": "Dr. Nazmul Islam",
     "designation": "BDS, MS(0MS)",
     "visiting_hour": "5-12PM",
     "address": "Banglamotor, Ramna, Dhaka",
     "mobile": "01764198438",
-    "doctor_image": "https://i.ibb.co/KqfZDLG/doctor-11.jpg"
+    "doctor_image": "https://i.ibb.co/0VPQWmt/doctor-12.jpg"
   },
   {
-    "key": 10,
-    "doctor_name": "Dr. Roksana Begum",
+    "key": 13,
+    "doctor_name": "Dr. Rezaul Karim",
     "designation": "BDS, MS(0MS)",
     "visiting_hour": "5-12PM",
     "address": "Banglamotor, Ramna, Dhaka",
@@ -117,8 +118,8 @@
     "doctor_image": "https://i.ibb.co/hY2rVgK/doctor-13.jpg"
   },
   {
-    "key": 10,
-    "doctor_name": "Dr. Roksana Begum",
+    "key": 14,
+    "doctor_name": "Dr. Fahad",
     "designation": "BDS, MS(0MS)",
     "visiting_hour": "5-12PM",
     "address": "Banglamotor, Ramna, Dhaka",
@@ -126,8 +127,8 @@
     "doctor_image": "https://i.ibb.co/4MJpCW5/doctor-14.jpg"
   },
   {
-    "key": 10,
-    "doctor_name": "Dr. Roksana Begum",
+    "key": 15,
+    "doctor_name": "Senior Prof. Dr. Abul Reza",
     "designation": "BDS, MS(0MS)",
     "visiting_hour": "5-12PM",
     "address": "Banglamotor, Ramna, Dhaka",

@@ -7,12 +7,11 @@ import Home from "./Pages/HomePage/Home";
 import PageNotFound from "./Pages/PageNotFound_404/PageNotFound";
 import Appointment from "./Pages/AppoinmentPage/Appointment";
 import Login from "./Pages/LoginPage/Login";
-import Consultants from "./Pages/ConsultantsPage/Consultants";
+import Consultants from "./Pages/ConsultantsPage/AllConsultants";
 import Register from "./Pages/RegisterPage/Register";
 import PrivateRoute from "./Components/PrivateRoute/PrivateRoute";
 import TreatmentDetails from "./Components/TreatmentDetails/TreatmentDetails";
 import AboutUs from "./Pages/AboutUs/AboutUs";
-import Alldoctors from "./Pages/Alldoctors/Alldoctors";
 
 
 function App() {
@@ -36,7 +35,7 @@ function App() {
           <Route path="/login">
             <Login></Login>
           </Route>
-          <PrivateRoute path="/treatment-details/:id">
+          <PrivateRoute path="/treatment_details/:name/:treatmentid">
             <TreatmentDetails></TreatmentDetails>
           </PrivateRoute>
           <Route path="/register">
@@ -44,9 +43,6 @@ function App() {
           </Route>
           <Route path="/about">
             <AboutUs></AboutUs>
-          </Route>
-          <Route path="/doctors">
-            <Alldoctors></Alldoctors>
           </Route>
           <Route path="*">
             <PageNotFound></PageNotFound>
