@@ -12,6 +12,8 @@ import Register from "./Pages/RegisterPage/Register";
 import PrivateRoute from "./Components/PrivateRoute/PrivateRoute";
 import TreatmentDetails from "./Components/TreatmentDetails/TreatmentDetails";
 import AboutUs from "./Pages/AboutUs/AboutUs";
+import Alldoctors from "./Pages/Alldoctors/Alldoctors";
+
 
 function App() {
   return (
@@ -42,6 +44,9 @@ function App() {
           </Route>
           <Route path="/about">
             <AboutUs></AboutUs>
+          </Route>
+          <Route path="/doctors">
+            <Alldoctors></Alldoctors>
           </Route>
           <Route path="*">
             <PageNotFound></PageNotFound>

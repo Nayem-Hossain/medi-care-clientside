@@ -44,27 +44,27 @@ const Footer = () => {
           <h6>
             <i className="fas fa-paper-plane"></i> medicareclinic@gmail.com
           </h6>
-          <div className="mt-3 fw-bold fs-3 icon-color">
+          <div className="mt-3 fw-bold fs-3 icon-color d-flex">
             <a
               href="https://www.facebook.com/nayem.islam.16752"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="fab fa-facebook-square me-3"></i>
+              <i className="fab fa-facebook-square "></i>
             </a>
             <a
               href="https://twitter.com/?lang=en"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="fab fa-twitter me-3"></i>
+              <i className="fab fa-twitter "></i>
             </a>
             <a
               href="https://www.linkedin.com/in/md-nayem-hossain-937052193/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="fab fa-linkedin me-3"></i>
+              <i className="fab fa-linkedin "></i>
             </a>
             <a
               href="https://www.instagram.com/accounts/login/"

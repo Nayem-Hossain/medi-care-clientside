@@ -28,55 +28,51 @@ const Header = () => {
             style={{ maxHeight: "100px" }}
             navbarScroll
           >
-            <Nav.Link>
-              <NavLink to="/home" className="nav-link">
-                Home
-              </NavLink>
-            </Nav.Link>
-            <Nav.Link>
-              <NavLink to="/appointment" className="nav-link">
-                Appointments
-              </NavLink>
-            </Nav.Link>
-            <Nav.Link>
-              <NavLink to="/doctors" className="nav-link">
-                Doctors
-              </NavLink>
-            </Nav.Link>
-            <Nav.Link>
-              <NavLink to="/about" className="nav-link">
-                About
-              </NavLink>
-            </Nav.Link>
+            <NavLink to="/home" className="nav-link">
+              Home
+            </NavLink>
+
+            <NavLink to="/appointment" className="nav-link">
+              Appointments
+            </NavLink>
+
+            <NavLink to="/doctors" className="nav-link">
+              Doctors
+            </NavLink>
+
+            <NavLink to="/about" className="nav-link">
+              About
+            </NavLink>
           </Nav>
           <Nav>
             {
               user.email ? (
                 <Nav>
-                  <Nav.Link>
-                    <NavLink onClick={logOut} to="/login" className="btn btn-danger rounded-pill text-white fw-bold">
-                       Logout
-                    </NavLink>
-                  </Nav.Link>
+                  <NavLink
+                    onClick={logOut}
+                    to="/login"
+                    className="btn btn-danger rounded-pill text-white fw-bold"
+                  >
+                    Logout
+                  </NavLink>
                 </Nav>
               ) : (
                 // <button onClick={logOut}>Logout</button>
                 <Nav>
-                  <Nav.Link>
-                    <NavLink to="/login" className="nav-link">
-                      Login
-                    </NavLink>
-                  </Nav.Link>
-                  <Nav.Link>
-                    <NavLink to="/register" className="nav-link">
-                      Register
-                    </NavLink>
-                  </Nav.Link>
+                  <NavLink to="/login" className="nav-link">
+                    Login
+                  </NavLink>
+
+                  <NavLink to="/register" className="nav-link">
+                    Register
+                  </NavLink>
                 </Nav>
               )
               // <NavLink to="/register">Register</NavLink>
             }
-            <Navbar.Text>Signed in as: <br /> {user.displayName}</Navbar.Text>
+            <Navbar.Text>
+              Signed in as: <br /> {user.displayName}
+            </Navbar.Text>
           </Nav>
         </Navbar.Collapse>
       </Container>

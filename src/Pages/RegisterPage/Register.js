@@ -85,7 +85,7 @@ const Register = () => {
             <p className="text-danger">{error}</p>
 
             <Button
-              onclick={logOut}
+              onClick={logOut}
               className="btn btn-warning px-5 py-2"
               type="submit"
             >
