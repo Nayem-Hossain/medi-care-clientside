@@ -3,10 +3,12 @@ import logo from "../../Images/logoForLogin.png";
 import { Form, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import UseAuth from "../../Hooks/UseAuth";
+import  UseFirebase from "../../Hooks/UseFirebase";
 import { useHistory, useLocation } from "react-router";
 import "./Login.css";
 
 const Login = () => {
+  UseFirebase();
   const {
     handleGoogleSignIn,
     handleEmailChange,
@@ -21,11 +23,6 @@ const Login = () => {
 
   const eventGoogleSignIn = () => {
     handleGoogleSignIn().then((result) => {
-      history.push(redirect_url);
-    });
-  };
-  const eventLogin = () => {
-    handleLogin().then((result) => {
       history.push(redirect_url);
     });
   };
@@ -49,7 +46,7 @@ const Login = () => {
             <p>or use email for login</p>
           </div>
 
-          <Form onSubmit={eventLogin}>
+          <Form onSubmit={handleLogin}>
             <Form.Group className="mb-3" controlId="formBasicEmail">
               <Form.Label className="fw-bold">Email address:</Form.Label>
               <Form.Control
@@ -71,7 +68,9 @@ const Login = () => {
             <Form.Group className="mb-3" controlId="formBasicCheckbox">
               <Form.Check type="checkbox" label="remember me?" />
             </Form.Group>
+
             <p className="text-danger">{error}</p>
+
             <Button className="btn btn-warning px-5 py-2" type="submit">
               Login
             </Button>

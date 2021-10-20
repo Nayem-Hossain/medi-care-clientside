@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
 import logo from "../../Images/website-logo.png";
-import { Container, Nav, Navbar } from "react-bootstrap";
+import { Container, Image, Nav, Navbar } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import UseAuth from "../../Hooks/UseAuth";
 
@@ -47,14 +47,20 @@ const Header = () => {
           <Nav>
             {
               user.email ? (
-                <Nav>
-                  <NavLink
-                    onClick={logOut}
-                    to="/login"
-                    className="btn btn-danger rounded-pill text-white fw-bold"
-                  >
-                    Logout
+                <Nav className="d-flex align-items-center">
+                  <NavLink to="/login">
+                    <button
+                      onClick={logOut}
+                      className="btn btn-danger rounded-pill text-white fw-bold"
+                    >
+                      Logout
+                    </button>
                   </NavLink>
+                  <Navbar.Text className="text-center">
+                    <Image style={{width:"40px"}} src={user.photoURL} roundedCircle />
+                    <br />
+                    <span className="fw-bold">{user.displayName}</span>
+                  </Navbar.Text>
                 </Nav>
               ) : (
                 // <button onClick={logOut}>Logout</button>
@@ -70,9 +76,6 @@ const Header = () => {
               )
               // <NavLink to="/register">Register</NavLink>
             }
-            <Navbar.Text>
-              Signed in as: <br /> {user.displayName}
-            </Navbar.Text>
           </Nav>
         </Navbar.Collapse>
       </Container>

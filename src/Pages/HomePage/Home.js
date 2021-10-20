@@ -19,14 +19,17 @@ const Home = () => {
       {/* banner section */}
       <section>
         <Carousel>
-          <Carousel.Item>
+          <Carousel.Item interval={1500}>
             <img
               className="d-block w-100 img-fluid"
               src={banner1}
               alt="First slide"
             />
-            <Carousel.Caption>
-              <h1 className="fw-bold text-info">Dental & Medical Care</h1>
+            <Carousel.Caption className="carousel-content">
+              <h1 className="fw-bold text-info heading">
+                Dental & Medical Care
+              </h1>
+
               <p className="text-dark">
                 Nulla vitae elit libero, a pharetra augue mollis interdum.
               </p>

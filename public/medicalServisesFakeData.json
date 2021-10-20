@@ -3,36 +3,45 @@
     "key": 1,
     "img": "https://i.ibb.co/YfxX6gb/service-1.jpg",
     "treatment_name": "Cosmetic Dentistry",
-    "description": "Cosmetic dentistry mainly concerns improving the appearance of your …"
+    "description": "Cosmetic dentistry mainly concerns improving the appearance of your …",
+    "long_description": "Some people hear the word cosmetic and assume that we only treat people that are looking to create a Hollywood smile. The cosmetic field of dentistry involves much more than creating a stunning appearance. It is true that most Hollywood stars use cosmetic dental procedures to improve their smile, but these procedures accomplish far more than that.Beyond basic cosmetic procedures aimed at changing a person's appearance, cosmetic dental procedures can restore the functionality of teeth and the self-confidence of our patients. We can help people after they damage their teeth in an accident. The American Dental Association reports that the majority of adults that damage their teeth, do so while playing sports. Thus, anyone can have a tooth break or chip at any time – regardless of how careful they are. Car wrecks, accidents at home, and workplace injuries are additional ways to damage teeth. When one does damage a tooth, it is important to visit a dentist that understands how to restore teeth in a natural way."
   },
   {
     "key": 2,
     "img": "https://i.ibb.co/GP3prmG/service-2.jpg",
     "treatment_name": "Pediatric Dentistry",
-    "description": "Pediatric dentistry is tailored to ensure infants, children, and …"
+    "description": "Pediatric dentistry is tailored to ensure infants, children, and …",
+    "long_description": "Pediatric dentists are dedicated to the oral health of children from infancy through the teen years. They have the experience and qualifications to care for a child’s teeth, gums, and mouth throughout the various stages of childhood."
   },
   {
     "key": 3,
     "img": "https://i.ibb.co/4g9vJfj/service-3.jpg",
     "treatment_name": "Dental Implants",
-    "description": "Dental implants replace the missing tooth by implanting artificial …"
+    "description": "Dental implants replace the missing tooth by implanting artificial …",
+    "long_description": "Dental implants are artificial tooth roots that provide a permanent base for fixed, replacement teeth. Compared to dentures, bridges and crowns, dental implants are a popular and effective long-term solution for people who suffer from missing teeth, failing teeth or chronic dental problems. Because they fit, feel and function like natural teeth, dental implants are quickly becoming a new standard in tooth replacement.What makes dental implants feel completely comfortable and secure? Doctors use a titanium implant fixture that, over time, actually fuses to the living bone cells of the jaw. This union forms a strong and durable anchor for your new teeth, meaning there’s no slippage or other movement (which can sometimes happen with dentures). There are also no problems eating with dental implants, no need to repair them regularly and no more worrying about smiling freely and openly."
   },
   {
     "key": 4,
     "img": "https://i.ibb.co/r44GDWZ/service-4.jpg",
     "treatment_name": "Periodontal Therapy",
-    "description": "Periodontal therapy is technically all about restoring the diseased …"
+    "description": "Periodontal therapy is technically all about restoring the diseased …",
+    "long_description": "Periodontal disease (gum disease) results in the progressive destruction of supporting structures of teeth, causing significant negative impacts on the health, function and appearance of the mouth. It occurs when there is buildup of plaque bacteria that irritate the gums and cause an inflammatory response resulting in red, swollen and bleeding tissue. If left untreated, there is destruction of the supporting tissues of the teeth, causing gum recession, gaps between the teeth and gums, loosening and shifting of teeth, and eventual tooth loss.Your periodontal health has been shown to have effects on your overall health and vice versa. Research findings show that periodontal disease is associated with a number of other conditions, including heart disease, diabetes and even cancer. Taking care of your gums with the help of a periodontist is thus an important part of ensuring your wellbeing beyond the mouth."
   },
   {
     "key": 5,
     "img": "https://i.ibb.co/8BZjtpb/service-5.jpg",
     "treatment_name": "Teeth Whitening",
-    "description": "Our dentists will clean up your teeth, conduct a thorough check …"
+    "description": "Our dentists will clean up your teeth, conduct a thorough check …",
+    "long_description": "Teeth are covered in a hard, outer coating called enamel. Every day, a thin film of bacteria called dental plaque builds up on your teeth. The bacteria in plaque produce acids that can harm enamel and cause cavities. Brushing and flossing your teeth can prevent decay, but once a cavity forms, to avoid further damage, a dentist must fix it with a filling.",
+    "point1": "Gently brush your teeth on all sides with a soft-bristle brush and fluoride toothpaste. Replace your toothbrush every 3 to 4 months.",
+    "point2": "Use small circular motions and short back-and-forth strokes.",
+    "point3": "Clean between your teeth with dental floss, prethreaded flossers, a water flosser, or a similar product. This removes plaque and leftover food that a toothbrush can't reach."
   },
   {
     "key": 6,
     "img": "https://i.ibb.co/1ZPdkR4/service-6.jpg",
     "treatment_name": "Preventive Dentistry",
-    "description": "This is an essential service to help patients avoid cavities, gum …"
+    "description": "This is an essential service to help patients avoid cavities, gum …",
+    "long_description": "Preventive dentistry includes two aspects of dental care, both performed to help patients avoid dental disease or to catch it in its early, more treatable stages. In part, it is the oral hygiene care performed by the patient at home. Preventive dentistry also encompasses what is done by the dental staff in their offices to help patients maintain healthy teeth and gums. In either case, the objective is to stop the development of oral disease or to find it at an early stage. Dental health professionals most often look for early signs of periodontal disease, dental decay, and other changes in the soft tissue of the mouth that could lead to oral cancer."
   }
 ]

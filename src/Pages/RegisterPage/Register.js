@@ -6,7 +6,6 @@ import logo from "../../Images/logoForLogin.png";
 import { useHistory, useLocation } from "react-router";
 
 const Register = () => {
-  const { logOut } = UseAuth();
   const {
     handleGoogleSignIn,
     handleNameChange,
@@ -85,7 +84,7 @@ const Register = () => {
             <p className="text-danger">{error}</p>
 
             <Button
-              onClick={logOut}
+              // onClick={logOut}
               className="btn btn-warning px-5 py-2"
               type="submit"
             >

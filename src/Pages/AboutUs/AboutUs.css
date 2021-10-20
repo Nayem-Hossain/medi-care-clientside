@@ -3,10 +3,11 @@
 }
 
 .fa-star{
-    color: #00B2B6;
+    color: #00b3ff;
 }
 .fa-star-half-alt{
-    color: #00B2B6;
+    color: #00b3ff;
+    /* color: #00B2B6; */
 }
 .card2{
     width: 100%;
@@ -27,7 +28,7 @@
 
 }
 .icon{
-    color: #00B2B6;
+    color: #00b3ff;
     font-size: 2.5rem;
 }
 .d-flex{

@@ -12,13 +12,13 @@ import {
 } from "firebase/auth";
 
 import InitializeFirebase from "../Components/FirebaseAuthentication/InitializeFirebase";
-import { useHistory } from "react-router";
+import { useHistory, useLocation } from "react-router";
 
 InitializeFirebase();
 
 const UseFirebase = () => {
-  /* const location = useLocation();
-    const redirect_url = location.state?.from || "/home"; */
+  // const location = useLocation();
+  // const redirect_url = location.state?.from || "/home";
   const history = useHistory();
   //for gmail login
   const [name, setName] = useState("");
@@ -63,6 +63,7 @@ const UseFirebase = () => {
         setError("");
         verifyEmail();
         setUserName();
+        logOut();
       })
       .catch((error) => {
         setError(error.message);

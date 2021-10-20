@@ -36,6 +36,12 @@ const TreatmentDetails = () => {
           <h1 className="text-center py-3 fw-bold border-5 border-bottom border-info">
             {name}
           </h1>
+          <div>
+            <p>
+              <span className="fw-bold">Description:</span>
+              {singleTreatment?.long_description}
+            </p>
+          </div>
           <Nav.Link href="/home#servises" className="text-center">
             <Button className="text-white fw-bold btn-info px-5 py-2">
               Go Back

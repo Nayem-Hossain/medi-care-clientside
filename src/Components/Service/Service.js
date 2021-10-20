@@ -14,7 +14,7 @@ const Service = (props) => {
           <Card.Text>{description}</Card.Text>
           <Card.Footer className="bg-white">
             <Link to={`/treatment_details/${treatment_name}/${key}`}>
-              <Button className="text-white fw-bold bg-danger px-5 py-2">View Details</Button>
+              <Button className="text-white fw-bold btn-danger px-3 py-1">View Details</Button>
             </Link>
           </Card.Footer>
         </Card.Body>
